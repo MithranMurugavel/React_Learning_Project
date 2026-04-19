@@ -1,0 +1,16 @@
+.active{
+    color: yellow;
+}
+
+.inactive{
+    color: black;
+}
+.main-str {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 200px;
+}
+

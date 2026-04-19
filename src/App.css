@@ -1,0 +1,13 @@
+.mainblock{
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.buttonblock button{
+  background-color: aqua;
+  margin-top: 8px;
+  
+}

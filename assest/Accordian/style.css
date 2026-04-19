@@ -1,0 +1,41 @@
+.main{
+    display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.main .btn{
+    color:black;
+    padding:8px 6px;
+    cursor:pointer;
+    background-color: rgb(94, 195, 108);
+    font-size: 16px;
+    border-radius: 8px;
+    font-weight: bold;
+    border: 0px;
+}
+.main .btn-active {
+  background-color: rgb(194, 23, 49);
+  color:aliceblue;
+}
+.accordian{
+    width:500px;
+}
+.content{
+    background-color: rgb(4, 174, 212);
+    margin-bottom: 15px;
+    border-radius: 16px;
+    padding:20px;
+    justify-content: center;
+    align-items: center;
+    color:rgb(255, 255, 255);
+    cursor:pointer;
+}
+.list-items{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}

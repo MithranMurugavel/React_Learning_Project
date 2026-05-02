@@ -13,6 +13,7 @@ function App() {
           <button key={btn.id} onClick={() => setActive(btn.id)}>
             {btn.label}
           </button>
+          
         ))}
       </div>
 

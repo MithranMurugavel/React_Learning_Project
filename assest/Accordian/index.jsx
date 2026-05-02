@@ -31,7 +31,7 @@ const Accordian = () => {
         <div className = "accordian">
             {
             data && data.length > 0 ? 
-            (data.map(items => <div onClick = {enable ? ()=> handleMultiSelection(items.id):() =>handleSingleSelection(items.id)} className="content" key={items.id}>
+            data.map(items => <div onClick = {enable ? ()=> handleMultiSelection(items.id):() =>handleSingleSelection(items.id)} className="content" key={items.id}>
                 <div className="list-items">
                 <h2>{items.question}</h2>
                 <span>+</span>
@@ -40,7 +40,7 @@ const Accordian = () => {
                enable ? multiple.indexOf(items.id) != -1 && (<div>{items.answer}</div>):select === items.id &&(<div className="ans">{items.answer}</div>)
             }
             </div>
-        )):
+        ):
             <div> No data Found</div>
         }
         </div>

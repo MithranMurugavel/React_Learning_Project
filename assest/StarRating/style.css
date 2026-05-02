@@ -1,10 +1,13 @@
 .active{
     color: yellow;
+    
 }
 
 .inactive{
     color: black;
+
 }
+
 .main-str {
     display: flex;
     flex-direction: column;

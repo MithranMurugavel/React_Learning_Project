@@ -23,10 +23,11 @@ const StarRating = ({ value = 5 }) => {
             <div>
                     
                 {
+
                     [...Array(value)].map((_, index) => {
                         index += 1;
 
-                        return <FaStar
+                         return <FaStar
                             key={index}
                             className={index <= (hover || rating) ? 'active' : 'inactive'}
                             onClick={() => handleClick(index)}

@@ -8,7 +8,7 @@ function App() {
   return (
      <div className="mainblock">
       {/* Button list */}
-      <div style={{ display: "flex", gap: "10px" }} className="buttonblock">
+      <div className="buttonblock">
         {buttons.map((btn) => (
           <button key={btn.id} onClick={() => setActive(btn.id)}>
             {btn.label}

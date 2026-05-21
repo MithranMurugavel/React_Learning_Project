@@ -44,6 +44,7 @@ const ScrollProgress = ({ url }) => {
         return <div>Loading data! Please wait</div>
     }
 
+    
     function handleScrollEvent(){
         const val = document.documentElement.scrollTop;
         const val1 = document.documentElement.scrollHeight - document.documentElement.clientHeight;

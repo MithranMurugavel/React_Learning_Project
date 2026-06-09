@@ -3,6 +3,7 @@ import ColorPanel from "../ColorChangePannel";
 import GitFinder from "../GitHubProfileFinder";
 import Qrcode from "../Qr_Code_Generator";
 import ScrollProgress from "../ScrollProgress";
+import Suggession from "../searchSugg";
 import StarRating from "../StarRating";
 import TestTab from "../TabContent/Testtab";
 import TreeView from "../Tree_View";
@@ -16,6 +17,6 @@ export const buttons = [
   { id: "ScrollPercentage", label: "Scroll Percentage", component: <ScrollProgress url={"https://dummyjson.com/products?limit=100"} /> },
   { id: "Multi-Tab", label: "Multi-Tab", component: <TestTab /> },
   { id: "GitHub", label: "GitHubFinder", component: <GitFinder/> },
-
+  { id: "AutoSearch", label: "AutoSearch", component: <Suggession/> },
 
 ];

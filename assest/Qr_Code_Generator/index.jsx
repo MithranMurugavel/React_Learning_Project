@@ -17,8 +17,8 @@ const Qrcode = () => {
     <div style={{display:'flex',flexDirection:'column', alignItems:'center'}}>
       <div >
         <form onSubmit={handleGenerateQr} style={{ padding: "50px", display: "flex", gap: "10px" }}>
-        <input onChange = {(ev)=>setInput(ev.target.value)} type = "text" placeholder="Enter the Input" value={input} style={{ width: "200px", flex: '10'}}/>
-        <button type="submit" style ={{'border':'5px solid'}}>Generate</button>
+        <input onChange = {(ev)=>setInput(ev.target.value)} type = "text" placeholder="Enter the Input" value={input} style={{ width: "200px",height:'35px', flex: '10'}}/>
+        <button type="submit" style ={{'border':'1px solid',height:'39px',marginTop:'200px'}}>Generate</button>
         </form>
       </div>
       <QRCode value ={qrCode} size = {400}/>

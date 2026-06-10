@@ -6,6 +6,7 @@ import ScrollProgress from "../ScrollProgress";
 import Suggession from "../searchSugg";
 import StarRating from "../StarRating";
 import TestTab from "../TabContent/Testtab";
+import TicTacToe from "../TIcTacToe";
 import TreeView from "../Tree_View";
 import menus from "../Tree_View/data";
 export const buttons = [
@@ -18,5 +19,7 @@ export const buttons = [
   { id: "Multi-Tab", label: "Multi-Tab", component: <TestTab /> },
   { id: "GitHub", label: "GitHubFinder", component: <GitFinder/> },
   { id: "AutoSearch", label: "AutoSearch", component: <Suggession/> },
+  { id: "TicTacToe", label: "TicTacToe", component: <TicTacToe/> },
+
 
 ];

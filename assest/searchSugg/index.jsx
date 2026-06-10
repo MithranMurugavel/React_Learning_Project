@@ -29,10 +29,16 @@ const Suggession = () => {
         const query = event.target.value.toLowerCase();
         setCurrValue(query)
         if (query.length > 1) {
-            const filter = user.filter((Items) => Items.toLowerCase().indexOf(query) > -1);
+            const filter = user.filter((Items) => Items.toLowerCase().indexOf(query) > -1).slice(0,5);
             setFiltered(filter);
             setDropDown(true);
         }
+        else{
+            setDropDown(false);
+            setFiltered([]);
+        }
+        
+        
 
     }
     useEffect(() => {
